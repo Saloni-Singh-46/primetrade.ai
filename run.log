@@ -1,0 +1,9 @@
+2026-07-14 13:18:44 | INFO     | Job started
+2026-07-14 13:18:44 | INFO     | Config loaded and validated: seed=42, window=5, version=v1
+2026-07-14 13:18:44 | INFO     | Random seed set to 42
+2026-07-14 13:18:44 | INFO     | Dataset loaded: 10000 rows from data.csv
+2026-07-14 13:18:44 | INFO     | Rolling mean computed with window=5
+2026-07-14 13:18:44 | INFO     | Signal generated: 4 rows with insufficient history (window-1) set to signal=0
+2026-07-14 13:18:44 | INFO     | Metrics summary: rows_processed=10000, signal_rate=0.4989, latency_ms=17
+2026-07-14 13:18:44 | INFO     | Metrics written to metrics.json
+2026-07-14 13:18:44 | INFO     | Job ended: status=success
